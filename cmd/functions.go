@@ -13,9 +13,9 @@ import (
 
 // Returns a simple test string.
 //	Output:
-// "Backend Challenge, by Juliana Baptiste."
+// "Backend Challenge."
 func About() string {
-	return "Backend Challenge, by Juliana Baptiste."
+	return "Backend Challenge."
 }
 
 // Returns the matrix as a string in matrix format.

@@ -44,7 +44,7 @@ func getTestMatrix_Big() [][]string {
 // Test for About func
 func TestAbout(t *testing.T) {
 	got := About()
-	want := "Backend Challenge, by Juliana Baptiste."
+	want := "Backend Challenge."
 
 	if got != want {
 		t.Errorf("got %q want %q", got, want)
