@@ -4,11 +4,9 @@ import (
 	"encoding/csv"
 	"fmt"
 	"math/big"
+	"net/http"
 	"strconv"
 	"strings"
-
-	//"log"
-	"net/http"
 )
 
 // Returns a simple test string.
